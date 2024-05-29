@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: spring-ai-01-chat
+
+  ai:
+    openai:
+      api-key: ${spring.ai.openai.api-key}
+      base-url: ${spring.ai.openai.base-url}
+      chat:
+        options:
+          #model: gpt-3.5-turbo
+          temperature: 0.3F

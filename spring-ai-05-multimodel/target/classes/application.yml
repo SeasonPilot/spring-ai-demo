@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: spring-ai-05-multimodel
+
+  ai:
+    openai:
+      api-key: ${api-key}
+      base-url: ${base-url}
